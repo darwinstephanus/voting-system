@@ -1,0 +1,17 @@
+2020-03-09 17:02:28,195 [http-nio-8080-exec-10] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 17:17:39,738 [http-nio-8080-exec-2] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 17:17:47,273 [http-nio-8080-exec-7] INFO  com.darwin.controller.AdminController 96 - Someone Get Admin
+2020-03-09 17:18:19,982 [http-nio-8080-exec-1] INFO  com.darwin.controller.AdminController 96 - Someone Get Admin
+2020-03-09 17:22:27,136 [http-nio-8080-exec-8] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 17:22:38,152 [http-nio-8080-exec-9] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 17:25:05,531 [http-nio-8080-exec-1] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 17:25:50,430 [http-nio-8080-exec-10] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 17:27:36,370 [http-nio-8080-exec-4] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 17:28:48,806 [http-nio-8080-exec-7] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 19:12:55,320 [HikariPool-14 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool 779 - HikariPool-14 - Thread starvation or clock leap detected (housekeeper delta=1h8m13s669ms161µs299ns).
+2020-03-09 19:19:17,138 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-09 19:19:17,138 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-09 19:19:17,141 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-09 19:19:17,143 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-09 19:19:17,144 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-14 - Shutdown initiated...
+2020-03-09 19:19:17,145 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-14 - Shutdown completed.

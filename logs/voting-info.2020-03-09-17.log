@@ -1,0 +1,27 @@
+2020-03-09 14:50:40,985 [restartedMain] INFO  org.springframework.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 413 ms
+2020-03-09 14:50:41,093 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-09 14:50:41,096 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-14 - Starting...
+2020-03-09 14:50:41,107 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-14 - Start completed.
+2020-03-09 14:50:41,108 [restartedMain] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-09 14:50:41,255 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-09 14:50:41,255 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-09 14:50:41,319 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-09 14:50:41,362 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58 - LiveReload server is running on port 35729
+2020-03-09 14:50:41,502 [restartedMain] INFO  org.springframework.security.web.DefaultSecurityFilterChain 43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5494b8d2, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d1ba558, org.springframework.security.web.header.HeaderWriterFilter@5cc0e088, org.springframework.web.filter.CorsFilter@3b25abdc, org.springframework.security.web.authentication.logout.LogoutFilter@727fa27d, com.darwin.config.JwtRequestFilter@1f4955fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2635f02a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d2a80c4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@163a7393, org.springframework.security.web.session.SessionManagementFilter@6a8cace4, org.springframework.security.web.access.ExceptionTranslationFilter@210b4bca, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@288d7a0c]
+2020-03-09 14:50:41,549 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-09 14:50:41,641 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver 58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-09 14:50:41,668 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-09 14:50:41,670 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-09 14:50:41,671 [restartedMain] INFO  com.darwin.VotingSystemApplication 61 - Started VotingSystemApplication in 1.128 seconds (JVM running for 12746.339)
+2020-03-09 14:50:41,673 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener 63 - Condition evaluation unchanged
+2020-03-09 14:52:08,436 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-09 14:52:08,437 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-09 14:52:08,440 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet 547 - Completed initialization in 2 ms
+2020-03-09 15:35:18,331 [http-nio-8080-exec-6] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 15:35:21,719 [http-nio-8080-exec-7] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 15:36:11,507 [http-nio-8080-exec-3] INFO  com.darwin.controller.AdminController 96 - Someone Get Admin
+2020-03-09 15:36:31,070 [http-nio-8080-exec-5] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 15:37:32,453 [http-nio-8080-exec-9] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 16:05:46,012 [http-nio-8080-exec-5] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 16:34:55,850 [http-nio-8080-exec-3] WARN  com.darwin.config.JwtRequestFilter 50 - JWT Token does not begin with Bearer String
+2020-03-09 16:35:07,380 [http-nio-8080-exec-6] INFO  com.darwin.controller.AdminController 96 - Someone Get Admin
